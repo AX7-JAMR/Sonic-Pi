@@ -1,0 +1,1032 @@
+#Coros
+coro = "C:/Users/JORGE ALBERTO MOJICA/Desktop/Coro.wav"
+coro2 = "C:/Users/JORGE ALBERTO MOJICA/Desktop/Coro2.wav"
+drum = "C:/Users/JORGE ALBERTO MOJICA/Desktop/Drum.wav"
+coro3 ="C:/Users/JORGE ALBERTO MOJICA/Desktop/Coro3.wav"
+
+
+
+
+#completar
+use_bpm 80
+2.times do
+  use_synth :piano
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  #bloque 2
+  play :eb5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  #bloque 3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+end
+#Entra Bateria y Bajo
+#sample :drum_splash_hard
+#use_bpm 77
+#live_loop :piano do
+
+# sample :drum_snare_hard
+#sleep 0.3
+#sample :drum_heavy_kick
+#sleep 0.3
+#sample :drum_heavy_kick
+#sleep 0.3
+#end
+#live_loop :platillo do
+
+# sample :drum_cymbal_hard
+#sleep 0.3
+#end
+sample drum, 'Drum' ,amp: 5
+use_bpm 120
+live_loop :bajo do
+  
+  use_synth :fm
+  play :Eb1 ,amp: 1
+  sleep 0.5
+  play :Eb1 , amp: 1
+  sleep 0.5
+  play :Eb1 , amp: 1
+  sleep 0.5
+  play :Eb1 , amp: 1
+  sleep 0.5
+  play :Eb1 , amp: 1
+  sleep 0.5
+  play :Eb1 , amp: 1
+  sleep 0.5
+  play :Eb1 , amp: 1
+  sleep 0.7
+  play :G1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :C2, amp: 1
+  sleep 0.7
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :BB1, amp: 1
+  sleep 0.5
+  play :Ab1, amp: 1
+  sleep 0.5
+  play :Ab1, amp: 1
+  sleep 0.5
+  play :Ab1, amp: 1
+  sleep 0.5
+  play :g1, amp: 1
+  sleep 0.5
+  play :g1, amp: 1
+  sleep 0.5
+  play  :Ab1 , amp: 1
+  sleep 0.5
+  play  :Ab1 , amp: 1
+  sleep 0.5
+  play  :Ab1, amp: 1
+  sleep 0.5
+  play :g1 , amp: 1
+  sleep 0.5
+  play :g1 , amp: 1
+  sleep 0.5
+  play :g1 , amp: 1
+  sleep 0.5
+  play :f1 , amp: 1
+  sleep 0.5
+  play :f1 , amp: 1
+  sleep 0.5
+end
+use_bpm 80
+2.times do
+  use_synth :piano
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  #bloque 2
+  play :eb5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  #bloque 3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+end
+sample :drum_cymbal_hard
+#Voz
+#primer dialogo
+use_bpm 60
+use_synth :beep
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :db4
+sleep 0.5
+play :C4
+sleep 0.5
+play :Bb3
+#segundo dialogo
+sleep 1
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.7
+play :Bb3
+sleep 0.3
+play :c4
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :ab3
+sleep 0.4
+play :f3
+sleep 0.3
+play :eb3
+sleep 1
+#Tecer Dialogo
+play :Eb4
+sleep 0.5
+play :Eb4
+sleep 0.5
+play :eb4
+sleep 0.6
+play :c4
+sleep 0.3
+play :Db4
+sleep 0.3
+play :C4
+sleep 0.5
+play :Bb3
+sleep 1.2
+#cuarto Dialogo
+play :Db4
+sleep 0.6
+play :db4
+sleep 0.3
+play :Db4
+sleep 0.7
+play :Bb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :Bb4
+sleep 0.5
+play :Ab3
+sleep 0.5
+play :F3
+sleep 0.3
+play :Eb3
+sleep 0.7
+#Se repite las mismas notas del verso
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :db4
+sleep 0.5
+play :C4
+sleep 0.5
+play :Bb3
+#segundo dialogo
+sleep 1
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.7
+play :Bb3
+sleep 0.3
+play :c4
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :ab3
+sleep 0.4
+play :f3
+sleep 0.3
+play :eb3
+sleep 1
+#Tecer Dialogo
+play :Eb4
+sleep 0.5
+play :Eb4
+sleep 0.5
+play :eb4
+sleep 0.6
+play :c4
+sleep 0.3
+play :Db4
+sleep 0.3
+play :C4
+sleep 0.5
+play :Bb3
+sleep 1.2
+#cuarto Dialogo
+play :Db4
+sleep 0.6
+play :db4
+sleep 0.3
+play :Db4
+sleep 0.7
+play :Bb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :Bb4
+sleep 0.5
+play :Ab3
+sleep 0.5
+play :F3
+sleep 0.3
+play :Eb3
+sleep 0.7
+sample :drum_splash_hard ,amp: 3
+sample coro, 'Coro', amp: 3
+use_bpm 80
+4.times do
+  use_synth :piano
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  #bloque 2
+  play :eb5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  #bloque 3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+end
+sample :drum_splash_hard ,amp: 3
+#regresan notas del verso
+use_bpm 60
+use_synth :beep
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :db4
+sleep 0.5
+play :C4
+sleep 0.5
+play :Bb3
+#segundo dialogo
+sleep 1
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.7
+play :Bb3
+sleep 0.3
+play :c4
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :ab3
+sleep 0.4
+play :f3
+sleep 0.3
+play :eb3
+sleep 1
+#Tecer Dialogo
+play :Eb4
+sleep 0.5
+play :Eb4
+sleep 0.5
+play :eb4
+sleep 0.6
+play :c4
+sleep 0.3
+play :Db4
+sleep 0.3
+play :C4
+sleep 0.5
+play :Bb3
+sleep 1.2
+#cuarto Dialogo
+play :Db4
+sleep 0.6
+play :db4
+sleep 0.3
+play :Db4
+sleep 0.7
+play :Bb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :Bb4
+sleep 0.5
+play :Ab3
+sleep 0.5
+play :F3
+sleep 0.3
+play :Eb3
+sleep 0.7
+#Se repite las mismas notas del verso
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.5
+play :eb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :db4
+sleep 0.5
+play :C4
+sleep 0.5
+play :Bb3
+#segundo dialogo
+sleep 1
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.5
+play :Db4
+sleep 0.7
+play :Bb3
+sleep 0.3
+play :c4
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :ab3
+sleep 0.4
+play :f3
+sleep 0.3
+play :eb3
+sleep 1
+#Tecer Dialogo
+play :Eb4
+sleep 0.5
+play :Eb4
+sleep 0.5
+play :eb4
+sleep 0.6
+play :c4
+sleep 0.3
+play :Db4
+sleep 0.3
+play :C4
+sleep 0.5
+play :Bb3
+sleep 1.2
+#cuarto Dialogo
+play :Db4
+sleep 0.6
+play :db4
+sleep 0.3
+play :Db4
+sleep 0.7
+play :Bb4
+sleep 0.3
+play :C4
+sleep 0.3
+play :Bb4
+sleep 0.5
+play :Ab3
+sleep 0.5
+play :F3
+sleep 0.3
+play :Eb3
+sleep 0.7
+#regresa teclado principio
+sample coro2, 'Coro2' ,amp: 3
+use_bpm 80
+4.times do
+  use_synth :piano
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  #bloque 2
+  play :eb5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  #bloque 3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+end
+#nuevo teclado
+sample :drum_splash_hard ,amp: 3
+use_bpm 80
+6.times do
+  use_synth :piano
+  #bloque uno
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Eb4
+  sleep 0.3
+  #bloque 2
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Eb4
+  sleep 0.3
+  #bloque 3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :c4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :c4
+  sleep 0.3
+end
+#dialogo
+play [:Db3,:F3,:Bb3]
+sleep 0.7
+play [:Db3,:F3,:Bb3]
+sleep 0.7
+play [:F3,:Bb3 ,:Db4]
+sleep 0.7
+play [:Db3,:F3,:Bb3]
+sleep 0.3
+play [:Db3,:F3,:Bb3]
+sleep 0.3
+play [:F3,:Bb3 ,:Db4]
+sleep 0.3
+play :ab4
+sleep 0.3
+play [:Bb3 ,:F4]
+sleep 0.3
+play [:Bb3 ,:F4]
+sleep 0.3
+play :F4
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :Bb3
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sample coro3, 'Coro3' ,amp: 2
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+play :F4
+sleep 0.3
+#se repite inicio
+
+use_bpm 85
+2.times do
+  use_synth :piano
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :eb5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  #bloque 2
+  play :eb5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :Bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  #bloque 3
+  play :db5
+  sleep 0.3
+  play :bb4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :F4
+  sleep 0.3
+  play :c5
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+end
+sample :drum_splash_hard ,amp: 3
+use_bpm 80
+9.times do
+  use_synth :piano
+  #bloque uno
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Eb4
+  sleep 0.3
+  #bloque 2
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Eb4
+  sleep 0.3
+  #bloque 3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :c4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :c4
+  sleep 0.3
+end
+sample :drum_splash_hard ,amp: 3
+use_bpm 75
+2.times do
+  use_synth :piano
+  #bloque uno
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Eb4
+  sleep 0.3
+  #bloque 2
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Eb4
+  sleep 0.3
+  #bloque 3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :Db4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :c4
+  sleep 0.3
+  play :ab4
+  sleep 0.3
+  play :g4
+  sleep 0.3
+  play :c4
+  sleep 0.3
+end
+
+
+
+
